@@ -1,0 +1,24 @@
+{
+  "name": "apk-version-action",
+  "version": "1.0.0",
+  "description": "Get the version name or version code of an APK file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kairusds/apk-version-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kairusds/apk-version-action/issues"
+  },
+  "homepage": "https://github.com/kairusds/apk-version-action",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "app-info-parser": "^1.1.4"
+  }
+}

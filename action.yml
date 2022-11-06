@@ -1,0 +1,15 @@
+name: "APK Version"
+author: "kairusds"
+description: "Get the version name or version code of an APK file"
+inputs:
+  path:
+    description: "The path to the APK file"
+    required: true
+outputs:
+  code:
+    description: "APK version code"
+  name:
+    description: "APK version name"
+runs:
+  using: "node16"
+  main: "dist/index.js"
